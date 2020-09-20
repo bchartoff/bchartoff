@@ -4,5 +4,169 @@
 - project: How Much Does Your School Contribute to Segregation?
   role: Data viz and front end developer
   url: https://apps.urban.org/features/school-segregation-index/
-  description: The Urban Institute. July 8, 2020
+  date: July 8, 2020
+  organization: The Urban Institute
+  github: https://apps.urban.org/features/school-segregation-index/
 
+- project: Monitoring State Unemployment Insurance Claims during the COVID-19 Pandemic
+  role: Data viz developer
+  url: https://www.urban.org/features/monitoring-state-unemployment-insurance-claims-during-covid-19-pandemic
+  date: June 11, 2020
+  organization: The Urban Institute
+
+- project: Where Low-Income Jobs Are Being Lost to COVID-19
+  role: Data viz developer
+  url: https://www.urban.org/features/where-low-income-jobs-are-being-lost-covid-19
+  date: April 16, 2020
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/covid-jobloss-feature
+
+- project: State Economic Monitor
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/state-economic-monitor/
+  date: November 12, 2019
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/state-economic-monitor
+
+- project: "2020 Census: Who’s At Risk of Being Miscounted?"
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/2020-census/
+  date: June 4, 2019
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/2020-census
+
+- project: Exploring Alternatives to the Tax Cuts and Jobs Act
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/tax-cuts-and-jobs-act-alternatives/
+  date: March 26, 2019
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/tax-cuts-and-jobs-act-alternatives
+
+- project: "Too Far from Jobs: Spatial Mismatch and Hourly Workers"
+  role: Interactive data viz developer
+  url: https://www.urban.org/features/too-far-jobs-spatial-mismatch-and-hourly-workers
+  date: February 21, 2019
+  organization: The Urban Institute
+
+- project: Pell Grant Reform Simulator
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/pell-simulator/
+  date: February 13, 2019
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/pell-simulator
+
+- project: Prison Population Forecaster
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/prison-population-forecaster/
+  date: September 6, 2018
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/prison-population-forecaster
+
+- project: Public Spending on Children in Five Charts
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/public-spending-on-children/
+  date: July 18, 2018
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/public-spending-on-children
+
+- project: Charting Student Loan Repayment
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/student-loan-repayment/
+  date: October 9, 2018
+  organization: The Urban Institute
+  github: https://github.com/urbaninstitute/student-loan-repayment
+
+- project: How do school funding formulas work?
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/funding-formulas/
+  date: November 29, 2017
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/funding-formulas
+
+- project: "Financial Health of Residents: A City-Level Dashboard"
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/city-financial-health/
+  date: November 2017
+  organization: The Urban Institute
+  github: https://github.com/urbaninstitute/city-financial-health
+
+- project: "A MATTER OF TIME : The Causes and Consequences of Rising Time Served in America’s Prisons"
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/long-prison-terms/intro.html
+  date: July 2017
+  organization: The Urban Institute
+  github: https://github.com/urbaninstitute/long-prison-terms
+
+- project: "School Funding: Do Poor Kids Get Their Fair Share?"
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/school-funding-do-poor-kids-get-fair-share/
+  date: May 2017
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/school-funding-do-poor-kids-get-fair-share
+
+- project: Mapping America’s Rental Housing Crisis
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/rental-housing-crisis-map/
+  date: April 27, 2017
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/housing-assistance-matters
+
+- project: Understanding College Affordability
+  role: Data viz consultant and co-developer
+  url: http://collegeaffordability.urban.org/
+  date: April 2017
+  organization: The Urban Institute
+
+- project: What everyone should know about their state's budget
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/what-drives-state-spending/
+  date: January 2017
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/what-drives-state-spending
+
+- project: Past-due medical debt in America
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/medical-debt-in-america/
+  date: March 2016
+  organization: The Urban Institute
+
+- project: "The People's Sector: A Look at Nonprofit Gains and Losses"
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/nonprofit-gains-and-losses/
+  date: November 2016
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/nonprofit-gains-and-losses
+
+- project: "The cost of affordable housing: Does it pencil out?"
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/cost-of-affordable-housing/
+  date: July 2016
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/cost-of-affordable-housing
+
+- project: Social Security Data Tool
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/social-security-data-tool/
+  date: February 2016
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/social-security-data-tool
+
+- project: Where Are the Unbanked and Underbanked in New York City?
+  role: Data viz developer
+  url: https://www.urban.org/interactive-map-where-are-unbanked-and-underbanked-new-york-city
+  date: November 2016
+  organization: The Urban Institute
+  github: baz
+
+- project: The Prison Population Forecaster // State Prison Population
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/reducing-mass-incarceration/
+  date: August 2015
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/reducing-mass-incarceration
+
+- project: The Political 1% of the 1% in 2012
+  role: Data viz developer
+  url: https://sunlightfoundation.com/2013/06/24/1pct_of_the_1pct/
+  date: JUN 24, 2013
+  organization: The Sunlight Foundation

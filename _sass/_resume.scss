@@ -135,7 +135,7 @@
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item { margin-bottom: 3rem; }
 
   .resume-item-title {
     @include sans_bold;
@@ -149,29 +149,44 @@
     font-size: 1.125rem;
     margin: 0 0 .75rem;
     line-height: 1;
+    display: inline-block;
 
     &.award-title {
       font-size: 1rem;
     }
+
   }
+  .resume-item-detail-row {
+  position: relative;
+
+  > .icon-link-item{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+
+      &:hover .icon path {
+      fill: #333;
+      @include transition(all .2s ease);
+    }
+  }
+}
 
   .resume-item-title,
   .resume-item-details,
   .resume-item-copy,
   .resume-item-list {
     a {
-      color: #333;
+      color: #1696d2;
       text-decoration: none;
-      border-bottom: 1px solid;
 
       &:hover {
-        border-bottom: none;
-        color: #9c9c9c;
+        border-bottom: 1px solid;
+        color: #1696d2;
       }
     }
   }
 
-  .resume-item-copy { margin: .75rem 0 0; }
+  .resume-item-copy { margin: .25rem 0 0; }
 }
 
 // footer styles
