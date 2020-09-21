@@ -1,6 +1,198 @@
 // Resume styles
 // ---------------------------------------/
 
+.grid {
+  position: relative;
+  clear: both;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  list-style: none;
+  text-align: center;
+  width: fit-content;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-height: 360px;
+  width: 48%;
+  height: auto;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  
+  font-family: Raleway;
+    font-weight: bold;
+    color: black;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure .more-info-hover {
+  margin: 0;
+}
+
+.grid figure .more-info-hover {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
+
+/*---------------*/
+/***** Lexi *****/
+/*---------------*/
+
+figure.effect-lexi {
+  background: -webkit-linear-gradient(-45deg, #000 0%,#fff 100%);
+  background: linear-gradient(-45deg, #000 0%,#fff 100%);
+}
+
+figure.effect-lexi img {
+  margin: -10px 0 0 -10px;
+  max-width: none;
+  width: -webkit-calc(100% + 10px);
+  width: calc(100% + 10px);
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(10px,10px,0);
+  transform: translate3d(10px,10px,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effect-lexi figcaption::before,
+figure.effect-lexi .more-info-hover {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-lexi figcaption::before {
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 900px rgba(255,255,255,0.2);
+  content: '';
+  opacity: 0;
+  -webkit-transform: scale3d(0.5,0.5,1);
+  transform: scale3d(0.5,0.5,1);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  background: rgba(0,0,0,.3);
+  z-index: 2
+}
+
+figure.effect-lexi:hover img {
+  opacity: 0.6;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+figure.effect-lexi h2 {
+  text-align: left;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: background 0.35s;
+  -webkit-transform: translate3d(5px,5px,0);
+  transform: translate3d(5px,5px,0);
+background: rgba(255,255,255,0.7);
+    padding: 20px;
+    left: -46px;
+    position: relative;
+    width: calc(100% + 81px);
+
+}
+
+figure.effect-lexi .more-info-hover {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  padding: 0 10px 1.5em 0;
+
+  width: 160px;
+  margin-left: -30px;
+  margin-bottom: 20px;
+
+  text-align: right;
+  opacity: 0;
+  -webkit-transform: translate3d(20px,20px,0);
+  transform: translate3d(20px,20px,0);
+}
+
+figure.effect-lexi:hover figcaption::before {
+  opacity: 1;
+  -webkit-transform: scale3d(1,1,1);
+  transform: scale3d(1,1,1);
+}
+
+figure.effect-lexi:hover h2,
+figure.effect-lexi:hover .more-info-hover {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  z-index: 3;
+}
+figure.effect-lexi:hover h2{
+  background: none;
+}
+
 // util
 
 .section-header {
@@ -18,7 +210,7 @@
 
 // page header styles
 
-.page-header { padding: 1.5rem 0;
+.page-header { padding: 1.5rem 0; max-width: 1200px; margin: 0 auto;
 
   .avatar {
     width: 95px;
@@ -98,7 +290,7 @@
   .icon-link { display: inline-block;
 
     &:hover .icon path {
-      fill: #333;
+      fill: #fdbf11;
       @include transition(all .2s ease);
     }
   }
@@ -108,6 +300,19 @@
   }
 }
 
+.project-date{
+font-family: Raleway;
+    position: absolute;
+    right: 10px;
+}
+.project-org{
+  font-family: Raleway;
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  bottom: -19px;
+  right: 10px;
+}
 .contact-button {
   @include border-radius(3px);
   background-color: #efefef;
@@ -133,7 +338,6 @@
 // resume content styles
 
 .content-section {
-  margin: 0 0 3rem;
 
   .resume-item { margin-bottom: 3rem; }
 
@@ -156,19 +360,16 @@
     }
 
   }
-  .resume-item-detail-row {
-  position: relative;
-
-  > .icon-link-item{
+.icon-link-item{
     display: inline-block;
-    position: absolute;
-    margin-left: 10px;
-
+    padding-bottom: 7px;
       &:hover .icon path {
-      fill: #333;
+      fill: #fdbf11;
       @include transition(all .2s ease);
-    }
-  }
+    }  
+}
+.icon-link-item.github{
+  margin-left: 15px;
 }
 
   .resume-item-title,
@@ -247,3 +448,6 @@
     }
   }
 }
+
+
+

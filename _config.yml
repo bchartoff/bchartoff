@@ -19,10 +19,10 @@ resume_contact_email:           "bchartoff@gmail.com"
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "646-438-0509"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     ""
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Ben Chartoff runs the data visualization team at The Urban Institute. Previously, he was the Knight-Mozilla Fellow at The Washington Post, and worked in data visualization at The Sunlight Foundation and Plotly</p>"
+resume_header_intro: "<p>Ben Chartoff runs the data visualization team at The Urban Institute. Previously, he was the Knight-Mozilla Fellow at The Washington Post, and worked in data visualization at The Sunlight Foundation and Plotly.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -45,6 +45,7 @@ resume_section_associations:    false
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/bchartoff"
+  resume_linkedin_url:          "https://www.linkedin.com/in/ben-chartoff-8a15b02a/"
   resume_twitter_url:           "https://twitter.com/benchartoff"
 resume_print_social_links:      true
 

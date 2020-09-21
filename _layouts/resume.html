@@ -49,23 +49,35 @@
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
-      <section class="content-section">
+      <section class="content-section grid">
         <header class="section-header">
           <h2>Selected projects</h2>
         </header>
 
         {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url" target = "_blank">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-            <div class = "resume-item-detail-row">
-              <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
-              {% if project.github %}
-               <i class="icon-link-item"><a href="{{ project.github }}" class="icon-link" itemprop="sameAs" target = "_blank">{% include icons/icon-github.html %}</a></i>
-              {% endif %}
-            </div>
-          <p class="resume-item-copy"><em>{{ project.date }}</em> :: {{ project.organization }}</p>
-        </div>
+
+
+
+
+          <figure class="effect-lexi">
+            <img src=images/cropped/{{project.image}} alt="img12"/>
+            <figcaption>
+              <h2>{{ project.project }}</h2>
+              <div class="more-info-hover">
+                <h4  itemprop="description">{{ project.role }}</h4>
+
+                <i class="icon-link-item view"><a href="{{ project.url }}" class="icon-link" itemprop="sameAs" target = "_blank">{% include icons/icon-view.html %}</a></i>
+
+                {% if project.github %}
+                <i class="icon-link-item github"><a href="{{ project.github }}" class="icon-link" itemprop="sameAs" target = "_blank">{% include icons/icon-github.html %}</a></i>
+                {% endif %}
+                <div class = "project-date">{{project.date}}</div>
+                <div class = "project-org">{{project.organization}}</div>
+
+              </div>
+            </figcaption>     
+          </figure>
+
         {% endfor %}
 
       </section>
