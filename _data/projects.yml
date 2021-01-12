@@ -1,12 +1,20 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- project: Spatial Equity Data Tool
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/equity-data-tool/index.html
+  date: September 24, 2020
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/school-segregation-index
+  image: equity.png
+
 - project: How Much Does Your School Contribute to Segregation?
   role: Data viz and front end developer
   url: https://apps.urban.org/features/school-segregation-index/
   date: July 8, 2020
   organization: The Urban Institute
-  github: https://github.com/UrbanInstitute/school-segregation-index
+  github: https://github.com/UrbanInstitute/equity-data-tool
   image: k12.png
 
 - project: No More Cop Money
